@@ -5,3 +5,8 @@ patients = pd.DataFrame({
     "heightcm": [172, 165, 181, 158, 175], 
     "weight_kg": [68, 72, 85, 54, 91] 
 })
+
+# Calculate BMI
+patients["bmi"] = patients["weight_kg"] / (patients["heightcm"] / 100) ** 2
+
+print(patients)
