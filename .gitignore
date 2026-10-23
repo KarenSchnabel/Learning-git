@@ -1,1 +1,6 @@
+# Hvis jeg har noget personfølsomt data, som git ikke skal kunne se. 
+# Jeg kan stadig se mine filer, men hvis jeg deler min git kan andre ikke se det. 
 personal.md
+
+# Hvis der er noget jeg ikke vil tracke eks figurer som laves gennem koden kan jge gøre følgende
+*.png
