@@ -14,3 +14,5 @@ Vi vil initiere projektet som en git.
 KarenSchnabel
 
 Grøn
+
+I was online
