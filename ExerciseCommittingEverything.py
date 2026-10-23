@@ -25,3 +25,13 @@ bp = pd.DataFrame({
     "systolic": [118, 135, 142, 125, 155], 
     "diastolic": [76, 82, 91, 79, 95] 
 })
+mean_systolic = sum(bp[])
+# Exercise 3 
+bp = pd.DataFrame({ 
+    "patient_id": ["P01", "P02", "P03", "P04", "P05"], 
+    "systolic": [118, 135, 142, 125, 155], 
+    "diastolic": [76, 82, 91, 79, 95] 
+})
+# Mean systolic 
+mean_systolic = bp["systolic"].mean()
+print(mean_systolic)
