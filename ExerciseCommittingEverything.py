@@ -32,6 +32,8 @@ bp = pd.DataFrame({
     "systolic": [118, 135, 142, 125, 155], 
     "diastolic": [76, 82, 91, 79, 95] 
 })
-# Mean systolic 
+# Mean systolic and -diastolic
 mean_systolic = bp["systolic"].mean()
 print(mean_systolic)
+mean_diastolic = bp["diastolic"].mean()
+print(mean_diastolic)
