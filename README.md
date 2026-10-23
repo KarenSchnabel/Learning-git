@@ -9,3 +9,8 @@ README er den fil som kommer frem når man laver et repository, altså er den de
 **fed**
 
 Vi vil initiere projektet som en git.
+
+
+KarenSchnabel
+
+Grøn
